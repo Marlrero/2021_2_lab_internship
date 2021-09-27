@@ -20,6 +20,14 @@ print(emails)
 print(address)
 # %%
 def stringify(num: int) -> str:
+    """[summary]
+
+    Args:
+        num (int): [description]
+
+    Returns:
+        str: [description]
+    """
     return str(num)
 
 def plus(num1: int, num2: float = 3.5) -> float:
