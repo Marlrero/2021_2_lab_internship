@@ -46,3 +46,13 @@
     )
     plt.show()
    ```
+
+## VS Code에서 사용하면 좋은 Python Extension
+- 참고 사이트: https://www.topbots.com/data-scientists-guide-to-efficient-coding-in-python/
+- Bracket Pair Colorizer
+- Path Intellisense
+- Python Dockstring generator
+- Python Indent
+- Python Type Hint
+- TODO tree
+- Pylance
