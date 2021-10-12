@@ -1,6 +1,14 @@
 import numpy as np
 
-def sigmoid(x):
+def sigmoid(x: np.array) -> np.array:
+    """[시그모이드 함수]
+
+    Args:
+        x (np.array): [입력값]
+
+    Returns:
+        np.array: [시그모이드 함수 출력값(연속 실수)]
+    """
     return 1 / (1 + np.exp(-x)) # np.exp(-x)가 numpy array를 반환 -> broadcast
 
 if __name__ == '__main__':

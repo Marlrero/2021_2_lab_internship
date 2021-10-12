@@ -1,7 +1,15 @@
 import numpy as np
 
 # numpy 방식으로 step function 재구연 (한 줄로!)
-def step_function(x): # x는 numpy 배열이 올 수 있음
+def step_function(x: np.ndarray) -> np.array: # x는 numpy 배열이 올 수 있음
+    """[계단 함수]
+
+    Args:
+        x (np.ndarray): [입력]
+
+    Returns:
+        np.array: [배열의 원소가 양수면 1, 음수면 0을 반환하는 배열]
+    """
     return np.array(x > 0, dtype=np.int32)
 
 if __name__ == '__main__':
