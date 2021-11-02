@@ -23,7 +23,7 @@
 5. 왼쪽에서 hello.py를 하나 만들고 다음과 같이 코드를 작성함
    ```
     # %%
-    print('Hello World!)
+    print('Hello World!')
    ```
 6. 위에 Run Cell을 누르면 에러가 발생
 7. 터미널에서 conda install -c anaconda pywin32 을 설치하고 VS Code를 재시작하고 다시 실행
